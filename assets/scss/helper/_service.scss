@@ -1,0 +1,21 @@
+.service{
+    .text-wrapper, figure{
+        text-align: center;
+    }
+
+    .text-wrapper{
+        h1{
+            font-family: $pserif;
+            padding-bottom: 30px;
+            font-weight: $reg;
+        }
+        p{
+            @include basic_p;
+
+            &.second-line{
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+        }
+    }
+}

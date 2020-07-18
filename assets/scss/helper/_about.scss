@@ -1,0 +1,22 @@
+.about{
+    .text-wrapper{
+        padding-top: 30px;
+        padding-left: 80px;
+        h1{
+            font-family: $pserif;
+            padding-bottom: 10px;
+            font-weight: $reg;
+        }
+        p{
+            @include basic_p;
+
+            &.second-line{
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+        }
+    }
+    figure{
+        margin-bottom: 0;
+    }
+}

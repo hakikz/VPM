@@ -1,0 +1,46 @@
+.header{
+    position: relative;
+    width: 100%;
+    padding: 30px 0;
+    
+
+    .navbar-brand{
+        figure{
+            margin-bottom: 0;
+            img{
+                max-width: 157px;
+            }
+        }
+    }
+
+    #navbarSupportedContent{
+        justify-content: flex-end;
+        ul{
+            li{
+                a{
+                    font-family: $pserif;
+                    color: $black;
+                    text-decoration: none;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    transition: 0.5s color ease-in-out;
+
+                    &:hover{
+                        color: $orange;
+                    }
+                }
+
+                &.cta{
+                    a{
+                        padding: 10px 25px;
+                        background-color: $orange;
+                        color: $white;
+                        border-radius: 30px;
+                        font-family: $noto !important;
+                    }
+                }
+            }
+        }
+    
+    }
+}

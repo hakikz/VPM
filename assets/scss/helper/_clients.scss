@@ -1,0 +1,31 @@
+.clients{
+    padding: 60px 0 150px;
+    .text-wrapper{
+        text-align: center;
+        h1{
+            font-family: $pserif;
+            padding-bottom: 10px;
+            font-weight: $reg;
+        }
+        p{
+            @include basic_p;
+
+            &.second-line{
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+        }
+    }
+
+    .images{
+        text-align: center;
+        .img-block{
+            width: 120px;
+            height: 120px;
+            display: block;
+            border-radius: 50%;
+            background-color: $blue;
+            border: 1px solid $ash;
+        }
+    }
+}

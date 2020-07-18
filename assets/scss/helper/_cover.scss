@@ -1,0 +1,17 @@
+
+.left-col{
+    background-color: $off-white;
+    text-align: center;
+    @include fixed_height;
+}
+
+.right-col{
+    background-color: $green;
+    @include fixed_height;
+    flex-direction: column;
+    .logo{
+        img{
+            max-width: 300px;
+        }
+    }
+}

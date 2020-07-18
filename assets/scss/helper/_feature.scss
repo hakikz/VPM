@@ -1,0 +1,46 @@
+.feature{
+    padding: 100px 0 0;
+    .text-wrapper{
+        h1{
+            font-family: $pserif;
+            padding-bottom: 10px;
+            font-weight: $reg;
+        }
+    }
+
+    .img-block{
+        width: 100%;
+        max-width: 120px;
+        height: 100%;
+        max-height: 120px;
+        display: block;
+        border-radius: 50%;
+        background-color: $orange;
+        border: 1px solid $ash;
+    }
+
+    .img-wrapper{
+        text-align: center;
+    }
+
+    .feature-box{
+        padding: 17px 0;
+        .box-info{
+            h3{
+                font-family: $pserif;
+                font-size: $font + 7px;
+                font-weight: $reg;
+            }
+            h6{
+                font-family: $pserif;
+                font-size: $font;
+                font-weight: $reg;
+            }
+
+            p{
+                font-size: $font - 4px;
+                padding-right: 90px;
+            }
+        }
+    }
+}

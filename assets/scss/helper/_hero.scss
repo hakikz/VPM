@@ -1,0 +1,24 @@
+.hero{
+    padding: 60px 0;
+
+    .text-wrapper{
+        h1{
+            font-family: $pserif;
+            font-weight: $reg;
+            color: $black;
+            line-height: 3.5rem;
+        }
+
+        p{
+            @include basic_p;
+        }
+    }
+
+    .hero-img{
+        text-align: center;
+    }
+
+    .arrow-bottom{
+        padding-top: 30px;
+    }
+}

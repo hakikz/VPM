@@ -1,0 +1,19 @@
+.newsletter{
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    padding: 60px 0;
+
+    .text-wrapper{
+        h1{
+            font-family: $pserif;
+            padding-bottom: 10px;
+            font-weight: $reg;
+        }
+        p{
+            @include basic_p;
+            color: $white;
+            padding-right: 80px;
+        }
+    }
+}

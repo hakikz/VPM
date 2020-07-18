@@ -1,0 +1,22 @@
+@mixin fixed_height {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+@mixin basic_p {
+    font-family: $pserif;
+    font-weight: $lite;
+    color: $black;
+    font-size: $font;
+    padding: 20px 0;
+
+    &.first-line{
+        padding-bottom: 5px;
+    }
+
+    &.second-line{
+        padding-top: 5px;
+    }
+}
